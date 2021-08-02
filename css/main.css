@@ -28,15 +28,15 @@ header {
   margin: 0px;
   position: relative;
 
-  outline: #ffffff 1px solid;
+  /* outline: #ffffff 1px solid; */
 }
 
-logo {
+.logo {
   position: absolute;
-  top: 20px;
-  left: 100px;
+  top: 5px;
+  left: 5px;
 
-  outline: red 1px solid;
+  /* outline: red 1px solid; */
 }
 
 nav {
@@ -44,14 +44,21 @@ nav {
   top: 20px;
   left: 300px;
 
-  outline: yellow 1px solid;
+  /* outline: yellow 1px solid; */
+}
+
+nav a {
+  margin: 30px;
+  color: #ffffff;
+  font-family: Roboto;
+  text-decoration: none;
 }
 
 main {
   width: 100%;
 }
 
-#white {
+.white {
   background: #ffffff;
   color: #000000;
   /* text-transform: uppercase; */
@@ -61,12 +68,12 @@ main {
 /*  background-image: url("img/background.jpg"); */ /* Фоновый цвет и фоновый рисунок*/
 /*} */
 
-up, louvre, upgold {
+.up, louvre, .upgold {
   text-transform: uppercase;
 }
 
 
-up {
+.up {
   font-family: Forum;
   font-size: 80px;
   font-style: normal;
@@ -86,7 +93,7 @@ louvre {
   text-align: left;
 }
 
-upgold {
+.upgold {
   color: #9D8665;
 
   font-family: Forum;
@@ -108,7 +115,25 @@ hr {
   height: 3px;
 }
 
-txt {
+button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.button-red {
+  color: #FFFFFF;
+  background: #710707;
+  border-radius: 0px;
+}
+
+.txt {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
